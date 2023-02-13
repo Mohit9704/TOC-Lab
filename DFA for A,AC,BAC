@@ -1,0 +1,28 @@
+DFA for A,AC,BAC
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {370 328}
+	}
+	state {
+		coord {501 403}
+	}
+	state {
+		final {yes}
+		coord {712 442}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {2.4773995258887718}
+	}
+	edge 0 2 {
+		transits {bc}
+		offset {2.1827554349628318}
+	}
+	edge 1 2 {
+		transits {c}
+		offset {0.5235987755982988}
+	}
+}
