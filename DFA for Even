@@ -1,0 +1,30 @@
+DFA for Even
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		final {yes}
+		coord {453 391}
+	}
+	state {
+		final {yes}
+		coord {693 386}
+	}
+	edge 0 0 {
+		transits {b}
+		offset {2.437978870810341}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {0.30893074392374165}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {1.730557427329459}
+	}
+	edge 1 0 {
+		transits {a}
+		offset {1.6020140746530416}
+	}
+}
