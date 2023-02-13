@@ -1,0 +1,47 @@
+TM for blab palindrome
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {321 167}
+	}
+	state {
+		coord {619 182}
+	}
+	state {
+		coord {941 183}
+	}
+	state {
+		coord {299 400}
+	}
+	state {
+		final {yes}
+		coord {934 423}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.6271941777964177}
+		direction {L}
+	}
+	edge 2 0 {
+		transits {ab}
+		offset {0.7792415602353824}
+		direction {L}
+	}
+	edge 0 3 {
+		transits {*}
+		offset {0.8434242367900215}
+		direction {L}
+	}
+	edge 3 4 {
+		transits {_b}
+		offset {0.5235987755982988}
+		direction {L}
+	}
+}
