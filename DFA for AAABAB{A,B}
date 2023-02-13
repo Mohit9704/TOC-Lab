@@ -1,0 +1,39 @@
+DFA for AAABAB{A,B}
+Automaton Simulator, v1.0
+dfa {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {379 330}
+	}
+	state {
+		coord {563 325}
+	}
+	state {
+		coord {725 318}
+	}
+	state {
+		final {yes}
+		coord {900 320}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {2.348977805155069}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {2.4232784689551057}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.7630252230460699}
+	}
+	edge 3 3 {
+		transits {ab}
+		offset {0.5688478584213591}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {-1.5328398816065822}
+	}
+}
